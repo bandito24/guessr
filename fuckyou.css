@@ -1,0 +1,205 @@
+body{
+    background-image: url('./pexels-francesco-ungaro-281260.jpg');
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, .9);
+}
+
+#fuck-you-page{
+    display: none;
+}
+
+#fuck-you{
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    top: 2.5em;
+    animation: fadeIns 1s ease-in;
+    z-index: 1;
+}
+
+@keyframes fadeIns{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+#middle-finger{
+    position: relative;
+    bottom: 45em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+
+#middle-finger img{
+    height: 100px;
+    width: auto;
+}
+
+#one{
+    position: relative;
+    top: 0em;
+    animation-name: finger;
+    right: .5em;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.9s;
+}
+#two{
+    position: relative;
+    animation-name: finger;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 3.2s;
+}
+#three{
+    position: relative;
+    right: .5em;
+    animation-name: finger;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 2.1s;
+}
+#four{
+    position: relative;
+    
+    animation-name: finger;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.4s;
+}
+#five{
+    position: relative;
+    right: .5em;
+    animation-name: finger;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 4.1s;
+}
+#six{
+    position: relative;
+    animation-name: finger;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 2.7s;
+}
+#seven{
+    position: relative;
+    right: .5em;
+    animation-name: finger;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+#eight{
+    position: relative;
+    animation-name: finger;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+#nine{
+    position: relative;
+    right: .5em;
+    animation-name: finger;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 3.5s;
+}
+#ten{
+    position: relative;
+    animation-name: finger;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.9s;
+}
+#eleven{
+    position: relative;
+    animation-name: finger;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 3.5s;
+}
+
+@keyframes finger{
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(0,1400px);
+    }
+}
+
+#loading{
+    width: 80%;
+    margin: auto;
+    font-family: 'Alegreya';
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, .9);
+    text-align: center;
+    /* flex-direction: column;
+    justify-content: center; */
+    position: relative;
+    top: 7em;
+}
+
+
+#thinking{
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    font-size: 2.5rem;
+}
+
+
+#button{
+    
+    display: flex;
+    justify-content: center;
+    display: none;
+    position: relative;
+    bottom: 6em;
+    
+}
+
+#button h3{
+    margin-top: 10em;
+    background-color: rgb(255, 191, 0, .9);
+    padding: .5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#button h3:active{
+    background-color: rgb(255, 191, 0, 1);
+}
+
+
+@keyframes fadeIn {
+    0%{
+        opacity: .9;
+    }
+    50%{
+        opacity: .4;
+    }
+    100%{
+        opacity: .9;
+    }
+}
