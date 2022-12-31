@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap" rel="stylesheet">
+    <title>Guessr</title>
+</head>
+<div id="front-page">
+<body>
+    <div id="intro">
+    <h1 id="header">Welcome to Guessr</h1>
+    <h2 id="test">With only 6 questions we can predict the <span>person, place, or thing </span> you're thinking of</h2>
+    </div>
+
+<div id="button">
+<h3 id="try">Try it out</h3>
+</div>
+</div>
+
+<div id="questionnaire">
+    <h2 id="directions">Once you have your person, place, or thing in mind please answer these questions and click submit</h2>
+    <form>
+        <div id="one" class="question">
+        <h3>Would it fit in a car?</h3>
+        <label for="question1">Yes</label>
+        <input type="radio" id="question1" name="answer" value='Yes' required>
+        <label for="question2">No</label>
+        <input type="radio" id="question1" name="answer" value="No" required>
+        </div>
+        <div id="two" class="question">
+            <h3>Is it real?</h3>
+            <label for="question2">Yes</label>
+            <input type="radio" id="question2" name="answer2" value='Yes' required>
+            <label for="question2">No</label>
+            <input type="radio" id="question2" name="answer2" value="No" required>
+        </div>
+        <div id="five" class="question">
+            <h3>How many vowels are in your answer?</h3>
+            <input type="number" required>
+        </div>
+        <div id="five1" class="question">
+            <h3>How many letters total are in your answer?</h3>
+            <input type="number" required>
+        </div>
+        <div id="five2" class="question">
+            <h3>Input the first letter and last letter of each word in your answer</h3>
+            <h4>(Separated by a comma for each word)</h4>
+            <input type="text" required>
+        </div>
+        <div id="six" class="question">
+            <h3>Please write 3 words that do not share any letters as your answer</h3>
+            <input type="text" required>
+        </div>
+        <div id="try-three">
+        <a href="./fuckyou.html" id="testy"><h3 id="try-two">Submit Answers</h3></a>
+        </div>
+        
+
+
+    </form>
+    <h5 id="copyright">copyright Guessr LLC 2019</h5>
+</div>
+    
+
+<script src="./index.js"></script>
+</body>
+</html>
